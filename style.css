@@ -1,5 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.font {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
 *{
     margin: 0;
     padding: 0;
 }
 
+.primary-btn{
+    border-radius: 8px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    padding: 12px 16px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ban{
+    margin: 20px 50px;
+}
+
+/* title section start */
+
+.header-title{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.title{
+    align-items: center;
+}
+
+.btn{
+    padding: 12px;
+    border-radius: 8px;
+    color: #006A50;
+    border: 0.5px solid #006A50;
+}
+
+/* title section end */
+
+
+/* benner section start */
+
+.benner{
+    background-color: #C6E4D6;
+    margin: 20px 0;
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.benner-content{
+    
+}
+
+.benner-title{
+    font-size: 24px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 0.5);
+}
+
+.benner-description{
+    font-size: 54px;
+    font-weight: 700;
+    margin: 15px 0px;
+}
